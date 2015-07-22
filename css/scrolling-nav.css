@@ -1,0 +1,61 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-image: url(../img/me.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.hi {
+    font-size: 5em;
+}
+
+.eleni {
+    font-size: 8em;
+    margin-top: -30px;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
