@@ -22,8 +22,8 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     background-image: url(../img/me.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background-position: center 2em;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -40,17 +40,33 @@ html {
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 50px;
-    text-align: center;
-    background: #eee;
-}
-
-.services-section {
-    height: 100%;
+    min-height: 100%;
     padding-top: 50px;
     text-align: center;
     background: #fff;
+}
+
+.tamu h1,
+.research h1,
+.cs h1
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    color: #fff;
+}
+
+.tamu p,
+.research p,
+.cs p {
+    font-size: 1.3em;
+}
+
+.tamu h1 {
+    background-image: url(../img/tamu.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .contact-section {
@@ -58,4 +74,14 @@ html {
     padding-top: 50px;
     text-align: center;
     background: #eee;
+}
+
+.contact-heading {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 4.5em;
+}
+
+.contact-body {
+    font-size: 1.8em;
 }
