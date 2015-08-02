@@ -47,8 +47,8 @@ html {
 }
 
 .tamu h1,
-.research h1,
-.cs h1
+.cs h1,
+.research h1
 {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -63,9 +63,22 @@ html {
     background-repeat: no-repeat;
 }
 
+.cs h1 {
+    background-image: url(../img/cs.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.research h1 {
+    background-image: url(../img/research.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 .tamu p,
-.research p,
-.cs p {
+.cs p,
+.research p
+{
     font-size: 1.3em;
 }
 
